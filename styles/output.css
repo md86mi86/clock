@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #020d26, #191a1d);
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(10, 16, 29);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black, inset 0px 0px 10px rgb(4, 13, 49);
+}
+body .container .b {
+  font-weight: 700;
+  color: rgb(0, 110, 255);
+}
+
+/*# sourceMappingURL=output.css.map */
